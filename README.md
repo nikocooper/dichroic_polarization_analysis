@@ -3,9 +3,10 @@ This repository is a collection of code used to measure and model the Mueller ma
 This code is dependent upon several python packages to run:
 1. katsu, by Jaren Ashcraft: https://github.com/Jashcraf/katsu/tree/main
 2. genpolab, by Ramya Anche: https://github.com/ramya-anche/genpolab
+3. zosapi, for interfacing with Zemax: https://github.com/x68507/zosapi
 
 In addition, the function trace_through_zos() in zemax_raytrace.py was taken from Jaren Ashcraft's Poke: https://github.com/Jashcraf/poke
 
 
-Note: an addition to the full_mueller_polarimetry() function in katsu.poalrimetry was made to inculde error propagation;
+Note: an addition to the full_mueller_polarimetry() function in katsu.poalrimetry was made to include error propagation;
 this is not included in the base katsu package, so a printout is included in mueller_pup_air.py for reference.
