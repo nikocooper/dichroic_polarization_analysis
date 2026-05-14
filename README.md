@@ -8,5 +8,5 @@ This code is dependent upon several python packages to run:
 In addition, the function trace_through_zos() in zemax_raytrace.py was taken from Jaren Ashcraft's Poke: https://github.com/Jashcraf/poke
 
 
-Note: an addition to the full_mueller_polarimetry() function in katsu.poalrimetry was made to include error propagation;
+Note: an addition to the full_mueller_polarimetry() function in katsu.polarimetry was made to include error propagation;
 this is not included in the base katsu package, so a printout is included in mueller_pup_air.py for reference.
